@@ -30,7 +30,7 @@ img, source {
     border-radius: 0.5rem 0.5rem 0 0;
 } 
 
-h1 {
+h2 {
     font-family: var(--ff-fraunces);
     font-weight: var(--fw-semibold);
     color: var(--clr-very-dark-blue);
@@ -75,7 +75,7 @@ picture {
     font-family: var(--ff-montserrat-sans);
     font-weight: var(--fw-normal);
     color: var(--clr-dark-grayish-blue);
-    letter-spacing: calc(0.2em + 0.5vw);
+    letter-spacing: calc(0.375em + 0.1vw);
     font-variant: small-caps;
 }
 
@@ -107,8 +107,9 @@ picture {
 .price {
     display: flex;
     align-items: center;
-    gap: 2em;
+    gap: 1.5rem;
     font-family: var(--ff-fraunces);
+    font-size: 2em;
 
     .current {
         color: var(--clr-dark-cyan);
@@ -116,7 +117,7 @@ picture {
     }
 
     .old {
-        text-decoration-line: line-through;
+        font-size: 0.625em;
         color: var(--clr-dark-grayish-blue);
     }
 }
