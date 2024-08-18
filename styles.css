@@ -58,6 +58,10 @@ button {
     padding: 1rem;
 }
 
+button:hover {
+    background-color: var(--clr-very-dark-blue);
+}
+
 picture {
     grid-row: 1 / 1;
 }
